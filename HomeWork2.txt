@@ -1,0 +1,9 @@
+   0 mkdir -p /home/user/start /opt/task /tmp/testnew && touch /home/user/start/1.txt
+   1 echo "Start" > /home/user/start/1.txt && date >> /home/user/start/1.txt
+   2 cp /home/user/start/1.txt /opt/task/start.txt
+   3 ls -la / |tail -4 >> /opt/task/start.txt
+   4 cp -r /opt/task /tmp/testnew/
+   5 cat /root/readme.txt >> /tmp/testnew/task/start.txt
+   6 rm -r /opt/task
+   7 nano /tmp/testnew/task/start.txt 
+   8 history > HomeWork2.txt
